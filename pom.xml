@@ -20,7 +20,7 @@
 
     <properties>
         <java.version>17</java.version>
-		<start-class>com.demo.RundeckDemoApplication</start-class>
+        <start-class>com.demo.RundeckDemoApplication</start-class>
     </properties>
 
     <dependencies>
@@ -40,9 +40,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<mainClass>com.demo.RundeckDemoApplication</mainClass>
-				</configuration>
+                <configuration>
+                    <mainClass>com.demo.RundeckDemoApplication</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
