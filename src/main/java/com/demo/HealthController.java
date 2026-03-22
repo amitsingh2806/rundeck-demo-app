@@ -18,6 +18,7 @@ public class HealthController {
         Map<String, String> response = new HashMap<>();
         response.put("status", "UP");
         response.put("version", appVersion);
+        response.put("feature", "experimental-dashboard");
         return response;
     }
 
