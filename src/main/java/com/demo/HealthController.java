@@ -18,6 +18,7 @@ public class HealthController {
         Map<String, String> response = new HashMap<>();
         response.put("status", "UP");
         response.put("version", appVersion);
+        response.put("environment", "production");
         response.put("feature", "experimental-dashboard");
         return response;
     }
@@ -27,6 +28,7 @@ public class HealthController {
         Map<String, String> response = new HashMap<>();
         response.put("app", "rundeck-demo-app");
         response.put("version", appVersion);
+        response.put("environment", "production");
         response.put("status", "running");
         return response;
     }
